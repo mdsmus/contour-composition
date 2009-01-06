@@ -12,8 +12,15 @@ Contours can be understood as the shape or format of an object. In
 Music, contour can be associated to elements like pitch, density,
 rhythm, intensity, and represents a parameter in function of another,
 as pitch in function of time. For instance, Beethoven's Fifth Symphony
-main motive and its contour are represented respectively in figures
-\ref{fig:5a-sinfonia-motivo} and \ref{fig:c-3120}.
+main motive and its pitch contour are represented respectively in
+figures \ref{fig:5a-sinfonia-motivo} and \ref{fig:c-3120}.
+
+Absolute value of contour elements are ignored, and only the high-low
+relationship between these elements is regarded. For this reason, for
+example, figures \ref{fig:5a-sinfonia-motivo} and \ref{fig:ly-3120}
+have the same contour, represented in figure \ref{fig:c-3120}. The
+first pitch is highest, the second is lower than the first, the third
+is between first and second, and the last is the lowest.
 
 The study of Contour is important because, like motives and pitch
 sets, contours can help to give coherence to a musical piece. They
@@ -47,13 +54,11 @@ Many authors
 \cite{friedmann85:methodology,friedmann87:response,morris87:composition,morris93:directions,marvin.ea87:relating,marvin88:generalized,marvin.ea95:generalization,polansky.ea92:possible,quinn97:fuzzy,clifford95:contour,beard03:contour}
 have developed theories to organize in a systematic way the knowledge
 about contour. These theories were developed primarily as analytic
-techniques for non-tonal compositions \cite{beard03:contour}.
-According to these theories, absolute value of the contour elements
-are ignored, and only the high-low relationship between these elements
-is regarded. These theories provide arrays, matrices and many
-operations to help the comparison of contours, like inversion,
-translation, comparison of elements of a contour, comparison of
-simalarity of contours, comparison matrix and contour interval array.
+techniques for non-tonal compositions \cite{beard03:contour}. These
+theories provide arrays, matrices and many operations to help the
+comparison of contours, like inversion, translation, comparison of
+elements of a contour, comparison of simalarity of contours,
+comparison matrix and contour interval array.
 
 Music analysis under the point of view of contour have been effective
 in tonal and non-tonal music. There are successful analysis of pieces
@@ -134,6 +139,11 @@ simultaneous association with pitch, duration, timbre and dynamics.
   \subfloat[Contour (3 1 2 0)]{
     \includegraphics{c-3120}
     \label{fig:c-3120}
+  }
+
+  \subfloat[Another (3 1 2 0) melody]{
+    \includegraphics{ly-3120-qualquer}
+    \label{fig:ly-3120}
   }
   \caption{Fifth Symphony main motive contour}
   \label{fig:5a-sinfonia}
