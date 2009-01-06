@@ -96,12 +96,18 @@ material. Rotation were combinated with retrogradation, intervallic
 expansion with interpolation, rotation with intervallic expansion, and
 so on.
 
-For instance, in a \eng{fugato}, in the quintet, subject and
-countersubject are based on rotation and retrogradation
-operations. The subject has original contour P(5 3 4 1 2 0) and factor
-3 rotation (fig. \ref{fig:sujeito-fugato}). The contoursubject has
-original contour retrogradation repeated three times with different
-rotation factors---5, 4 and 3 (fig. \ref{fig:contra-sujeito-fugato}).
+The contour software was essential to compose a \eng{fugato}, in the
+quintet, because each piece of subject and countersubject were based
+on different combinations of rotation and retrogradation operations.
+The subject has original contour P(5 3 4 1 2 0) and factor 3 rotation
+(fig. \ref{fig:sujeito-fugato}). Figure
+\ref{fig:output-sujeito-fugato} has the contour software output for
+graphical representations of these subject operations. Contoursubject
+has original contour retrogradation repeated three times with
+different rotation factors---5, 4 and 3
+(fig. \ref{fig:contra-sujeito-fugato}). In the same way software
+output for these operations are in figure
+\ref{fig:output-contra-sujeito-fugato}.
 
 Rotation and intervallic expansion occur like in figure
 \ref{fig:notas-curtas-madeiras}. In flute the contour has original
@@ -113,17 +119,16 @@ rotation and retrogradation, and intervallic expansion.
 \section{Conclusions}
 \label{sec:conclusions}
 
-Contour represents a significant structural device in cited quintet
+Contour represented a significant structural device in cited quintet
 compositional process. The majority structures of the piece were
 composed based on contour operations. For this reason we believe
 contour is as important to composition as to analysis.
 
 The cited software has an important role in our research, automating
-operations calculation and plotting. In the future the software will
-also receive as input scores in the
-Lilypond\footnote{\url{http://lilypond.org/}} format and will have a
-graphical interface.
-
+operations calculation and plotting. It can be very useful for
+composition and analysis. In the future the software will also receive
+as input scores in the Lilypond\footnote{\url{http://lilypond.org/}}
+format and will have a graphical interface.
 The next step in our research is to develop the software to provide a
 better interaction with the user, and to compose short experiments to
 test a larger operations corpus, and multiple layers contours, like
@@ -178,6 +183,21 @@ simultaneous association with pitch, duration, timbre and dynamics.
   }
   \caption{Structural elements of \eng{fugato}}
   \label{fig:elementos-fugato}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \subfloat[Subject]{
+    \includegraphics[scale=.44]{output-subject}
+    \label{fig:output-sujeito-fugato}
+  }
+
+  \subfloat[Countersubject]{
+    \includegraphics[scale=.44]{output-countersubject}
+    \label{fig:output-contra-sujeito-fugato}
+  }
+  \caption{Software output for \eng{fugato} contour operations}
+  \label{fig:output-fugato}
 \end{figure}
 
 \begin{figure}[!p]
