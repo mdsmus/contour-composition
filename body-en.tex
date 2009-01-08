@@ -7,15 +7,15 @@
 
 \section{Introduction}
 \label{sec:introduction}
-
-Contours are shape or format of objects. In Music, they can be
-associated to elements like pitch, density, rhythm, and represent a
-parameter in function of another, such as pitch in function of
-time. Contours can be easily recognized from a graphic representation
-by professionals and laymen alike \cite{marvin88:generalized}. For
-instance, Beethoven's Fifth Symphony's main motive and its pitch
-contour are represented respectively in figures
-\ref{fig:5a-sinfonia-motivo} and \ref{fig:c-3120}.
+Contour is the shape or format of objects. In Music, they can be
+associated to elements like pitch, density, rhythm, and can represent
+a parameter in function of another, such as pitch in function of time.
+The contour of musical excerpts can be easily recognized from a
+graphic representation by professionals and laymen alike
+\cite{marvin88:generalized}. For instance, Beethoven's Fifth
+Symphony's main motive and its pitch contour are represented
+respectively in figures \ref{fig:5a-sinfonia-motivo} and
+\ref{fig:c-3120}.
 
 Technically, a contour is an ordered set of numbered elements
 \cite{morris93:directions}. Absolute values of contour elements are
@@ -25,34 +25,34 @@ regarded. For instance, figures \ref{fig:5a-sinfonia-motivo} and
 in figure \ref{fig:c-3120}, and symbolically by (3 1 2 0).
 
 The study of Contour is important because, like motives and pitch
-sets, contours help giving coherence to a musical piece. They are
+sets, contours help to give coherence to a composition. They are
 structural devices that can be combined through operations like
 inversion and retrogradation, and can be aproached by analytical or
 compositional points of view.
 
-Systematic studies about the usage of contour operations in musical
-composition are scarce, despite the possible coherence that contours
-can give and the
+Systematic study about the usage of contour in musical composition are
+scarce, despite the possible coherence that contours can give and the
 \nota{and the what of operations? operações por si só não dizem nada,
   é bom dizer por que são interessantes, ou até que são interessantes,
-  ou então tirar essa segunda parte da frase}
+  ou então tirar essa segunda parte da frase. eu acho que o
+  ``operations'' que eu tirei na primeira frase melhora isso, acho que
+  nao precisa mudar o resto ja que tem o ``see section''} rich
 operations provided by contour theories (see section
 \ref{sec:contour-theories}). Besides, contour operations need precise
 mathematical calculations and their graphical representations use
-plotting intensely. For these reasons, this subject require more
-experimentation and studies about usage of the operations in the field
-of composition, and a computer program to assist in calculations and
-plotting, to avoid human errors and wasting time.
-
-In this paper we present partial results of our
-research\footnote{Additional information was omitted to keep
-  anonymity, and will be included in final version.} on applications
-of contour in musical composition. We are developing a contour
-processing software that receives as input symbollic contours and that
-outputs symbolic and graphical representations of contours and
-operations. Likewise, the first author of this paper, in his master's
+plotting intensely. For these reasons a computer program to calculate
+and plot contours and it's operations may be of great value for the
+composer wanting to use contours in his or her compositions. We
+believe that the formal use of contours in the field of composition
+needs more experimentation and study. In this paper we present the
+partial results of our research\footnote{Additional information was
+  omitted to keep anonymity and will be included in final version.} on
+the use of contour in musical compositions. We are developing a
+contour processing software that receives as input symbollic contours
+and outputs symbolic and graphical representations of contours and
+it's operations. Also, the first author of this paper, in his master's
 research, composed a woodwind quintet based in contour theories
-operations, and using the mentioned software (see section
+operations using the mentioned software (see section
 \ref{sec:contour-composition}).
 
 \section{Contour theories}
@@ -60,8 +60,8 @@ operations, and using the mentioned software (see section
 
 Many authors
 \cite{friedmann85:methodology,friedmann87:response,morris87:composition,morris93:directions,marvin.ea87:relating,marvin88:generalized,marvin.ea95:generalization,polansky.ea92:possible,quinn97:fuzzy,clifford95:contour,beard03:contour}
-have developed theories to organize in a systematic way the knowledge
-about contour. These theories were developed primarily as analytic
+have developed theories to organize systematically the knowledge about
+contour. These theories were developed primarily as analytic
 techniques for non-tonal compositions \cite{beard03:contour}, and
 provide arrays, matrices and many operations to help the comparison of
 contours, like inversion, translation, comparison matrix, and contour
@@ -81,18 +81,19 @@ has a significant role in Webern pre-serial music structure.
 The quintet mentioned in section \ref{sec:introduction} was composed
 entirely using the contour processor software to simplify operations
 and plotting. The piece is based on combinations of contour operations
-associated to parameters such as pitch, tempo, density and
-texture. This quintet is based on a six notes motive ($\alpha$, seen
-in fig. \ref{fig:motivo-alfa}) and its derived contour P(5 3 4 1 2 0)
-(fig. \ref{fig:c-534120}). This P contour, its subsets and
+associated to parameters such as pitch, tempo, density and texture.
+This quintet is based on a six notes motive ($\alpha$, seen in fig.
+\ref{fig:motivo-alfa}) and it's derived contour P(5 3 4 1 2 0) (fig.
+\ref{fig:c-534120}). This contour P, it's subsets and
 operations---retrogradation, inversion, rotation,
+%% kroger: the only what? the only contours?
 interpollation---were the only ones used in the piece.
 
-For instance, the tempo in this quintet---82, 66, 120, 108 and
-112---have relations based in A(1 0 4 2 3) contour, a subset of P with
-five elements. The number of instruments in piece first section, N(1 3
-2 5 4), also are based in a P subset contour. The piece begins with a
-solo, then a trio, a duo, a quintet, and finally a quartet.
+For instance, the tempos in this quintet---82, 66, 120, 108 and
+112---have relations based in the contour A(1 0 4 2 3), a subset of P.
+The number of instruments in the first section, N(1 3 2 5 4), are also
+based in a subset of contour P. The piece begins with a solo, then a
+trio, a duo, a quintet, and finally a quartet.
 
 Contour operations were also combined to produce new
 material. Rotation was combinated with retrogradation, intervallic
@@ -102,27 +103,27 @@ so on.
 The contour software was essential to compose a \eng{fugato}, in the
 quintet, because each piece of subject and countersubject were based
 on different combinations of rotation and retrogradation operations.
-The subject has original contour P(5 3 4 1 2 0) and factor 3 rotation
-(fig. \ref{fig:sujeito-fugato}). Figure
-\ref{fig:output-sujeito-fugato} has the contour software output for
-graphical representations of these subject operations. Contoursubject
-has original contour retrogradation repeated three times with
-different rotation factors---5, 4 and 3
-(fig. \ref{fig:contra-sujeito-fugato}). In the same way software
-output for these operations are in figure
-\ref{fig:output-contra-sujeito-fugato}.
+The subject has the original contour P(5 3 4 1 2 0) and rotation with
+a factor 3 (fig. \ref{fig:sujeito-fugato}). The graphical
+representations of these subject operations as outputed by the contour
+software can be seen in figure \ref{fig:output-sujeito-fugato}. The
+countersubject has the retrogradation of the original contour repeated
+three times with different rotation factors---5, 4 and 3 (fig.
+\ref{fig:contra-sujeito-fugato}). The output of the software for these
+operations are in figure \ref{fig:output-contra-sujeito-fugato}.
 
 Rotation and intervallic expansion occur like in figure
-\ref{fig:notas-curtas-madeiras}. In flute the contour has its original
-form, and in clarinet there is a factor 2 rotation and an
-expansion. In oboe there is a factor 3 rotation and contour deviation
-justified by the gesture. In bassoon there is a factor 3 contour
-rotation and retrogradation, and intervallic expansion.
+\ref{fig:notas-curtas-madeiras}. In the flute the contour has its
+original form, and in the clarinet there is a rotation with a factor 2
+and an expansion. In the oboe there is a rotation with a factor 3 and
+contour deviation justified by the gesture. In the bassoon there is a
+factor 3 contour rotation and retrogradation, and intervallic
+expansion.
 
 \section{Conclusions}
 \label{sec:conclusions}
 
-Contour was a significant structural device in cited quintet
+Contour was a significant structural device in the cited quintet
 compositional process. The majority structures of the piece were
 composed based on contour operations. For this reason we believe
 contour is as important to composition as to analysis.
