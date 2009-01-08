@@ -7,15 +7,22 @@
 \usepackage{setspace}
 \usepackage{subfig}
 \usepackage{url}
+\usepackage{color}
 
 \input{newcommand}
 \interfootnotelinepenalty=10000
 \clubpenalty=10000
 \widowpenalty=10000
+\newcommand{\nota}[1]{\addtocounter{notecounter}{1}{\textcolor{red}{[nota
+      \arabic{notecounter}: #1]}}}
 
 \begin{document}
 
-\title{Musical contour and its operations in composition}
+\title{Musical contour and its operations in composition} 
+% passos: Musical contour and its operations soa meio como "contorno
+% musical e suas operações", o que é esquisito. Que tal algo como
+% "Musical contours and operations over contours in composition", pra
+% ficar mais claro.
 \author{Marcos Sampaio and Pedro Kröger}
 
 \begin{center}
