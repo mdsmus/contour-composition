@@ -1,5 +1,5 @@
 NAME = contour-composition
-TEXSRCS = body-en.tex bibliography.tex abstract.tex
+TEXSRCS = body-en.tex bibliography.tex
 OTHER += $(LILY_PDF) $(SVG_PDF) $(GNUPLOT_PDF)
 
 USE_PDFLATEX = 1
